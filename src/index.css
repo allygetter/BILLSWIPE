@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-ink text-[#f6efe8] antialiased;font-family:"Trebuchet MS",system-ui,sans-serif}
+@layer components{
+.btn{@apply rounded-full px-5 py-2.5 font-bold border border-line bg-panel transition active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-peach}
+.btn-pri{@apply btn border-0 bg-gradient-to-br from-coral to-peach text-white}
+.box{@apply bg-panel border border-line rounded-3xl p-5}
+.inp{@apply w-full rounded-2xl border border-line bg-panel px-4 py-3 mb-3 focus:outline focus:outline-2 focus:outline-peach}
+.pill{@apply text-xs font-bold px-2.5 py-1 rounded-full}}
